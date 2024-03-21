@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Rocafiel.com</title>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="style.css"
+
+</head>
+<body>
+
+    <div class="head">
+
+        <div class="logo">
+            <a href="#">Rocafiel - El Alto</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Numeros de contacto</a>
+            <a href="#">Actividades</a>
+            <a href="#">Reuniones Semanales</a>
+            
+        </nav>
+
+    </div>
+
+    <header class="content header">
+
+    </header>
+
+    <section class="content sau">
+        <img src="img/LOGO ROCAFIEL PNG.png"
+        width="10%"
+
+
+        <h2> Predicas</h2>
+        
+        
+        <div class="box-container">
+
+            <div class="box">
+                     <a href="https://www.facebook.com/JovenesRocafiel" target="_blank">
+
+                        <img src="https://scontent.flpb1-2.fna.fbcdn.net/v/t39.30808-6/309263593_464989685666142_464861817710714100_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SA5zEs_BQAYAX-oqG8b&_nc_ht=scontent.flpb1-2.fna&oh=00_AfBN6upjVuKFE1dBWdV-rzIkSnmpXdoTN_VV28c3A5-fug&oe=64276EC5"
+                        width="70%">
+                        
+                    </a>
+                </a>
+                <h3>JRF</h3>
+                
+            </div>
+            <div class="box">
+                <a href="https://youtube.com/playlist?list=PL217Npwz53ORevBgcRQ18J9HRTp3X4iks" target="_blank">
+
+                    <img src="https://scontent.flpb1-2.fna.fbcdn.net/v/t39.30808-6/323886783_486397870087292_4122686953777926694_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=5cIDFZ4hsd0AX_WUGrq&_nc_ht=scontent.flpb1-2.fna&oh=00_AfBa_gxQ72Ao8pXwiVyWtbh35zgrfNyl3bp8clxEUVev2g&oe=64236EBF"
+                    width="70%">
+                </a>
+                <h3>Lista Reproduccion
+                </h3>
+                
+                 </div>
+                <div class="box">
+                    <a href="https://www.facebook.com/profile.php?id=100071194217489" target="_blank">
+
+                        <img src="https://scontent.flpb1-2.fna.fbcdn.net/v/t39.30808-6/321251833_491703829728868_7370512677238691251_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UYC-ACijmD0AX-PNNk6&_nc_ht=scontent.flpb1-2.fna&oh=00_AfBJV1NDn1wEjL4wwiWP0A0DVfe72OVdRTuVlrtJJgpQ5g&oe=6427BAA1"
+                        width="70%">
+                        
+                    </a>
+                
+                
+                <h3>Prejus</h3>
+              
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="content about">
+
+        <h2 class="title">Actividades
+        </h2>        
+        
+        <div class="box-container">  
+            <div class="box1">     
+     <img src="img/schedule.jfif" height="349px" width="613px" > 
+    </div>
+        </div>  
+
+    
+        </section>
+
+    <section class="content price">
+
+        <article class="contain">
+            <h2 class="title"></h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Ut soluta similique 
+                quia reprehenderit eligendi aliquam. Sit 
+                odio impedit quibusdam. Velit corporis, 
+                optio debitis quidem ex ipsam rerum dolorem autem sequi.
+            </p>
+
+            <a href="#" class="btn">Saber precio</a>
+
+        </article>
+
+    </section>
+
+    <section class="content contact">
+        <h2 class="title">Direccion</h2>
+        <p>48481548</p>
+        <figure class="map">
+            <img src="img/mapa1.jfif" height="260px" width="100%" alt="mapa1">
+        </figure>
+    </section>
+    
+</body>
+</html>

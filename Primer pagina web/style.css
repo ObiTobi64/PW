@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.resolucion{
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+@media (max-width: 768px) and (max-width: 990px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    .tablet{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {             /*codigo para la parte del menu*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    background:transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+}
+.contactos{
+    background:rgb(214, 213, 213);
+    backdrop-filter: blur(20px);
+    display: none;
+    width: 20%;
+    color: black;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 200px;
+    border-radius: 22px;
+    position: absolute;
+    margin: 20px;
+    left: 49%;
+    top: 100%;
+}
+.anuncios{
+    color: white;
+    backdrop-filter: blur(20px);
+
+}
+
+#cerrar{
+
+position: absolute;
+right: 3px;
+top:4px
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 25px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+position: relative;
+font-size: 1.1em;
+color:rgb(244, 243, 243);
+text-decoration: none;
+font-weight: 500;
+margin-left: 40px;
+}
+.navbar a::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: -6px;
+width: 100%;
+height: 3px;
+background: rgb(242, 240, 240);
+border-radius: 4px;
+transform-origin: right;
+transform: scaleX(0);
+transition: transform .5s;
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1);
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.header { /*with this section you can modify the "papa abraza rico"*/
+    height: 55vh !important;
+    background: url(img/PORTADA.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 3px solid rgb(219, 203, 203);
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau{
+    height: 100vh !important;
+    background: url(img/2PORTADA.jpg) no-repeat center;
+    background-size: cover;
+}
+.sau {
+    padding: 40px;
+    /*background: rgb(116, 110, 156)*/
+    background: url(img/grupo.png) no-repeat center;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}
+
+.box-container .box {
+    height: 23rem;
+    width: 17rem;
+    background:transparent;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 .3rem 5rem rgba(239, 232, 232, 0.5);
+    backdrop-filter: blur(20px);
+    margin: 20px;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #f1e9f3;
+    font-size: 2rem;
+    margin: 2rem 0;
+
+}
+
+.box-container .box img{ /*Codigo para el tamaño de las imagenes con el link*/
+    height: 100px;
+    width: 100px;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 20%;
+    border: 3px solid #f9f5f5;
+    color: #fff;
+    backdrop-filter: blur(20px);
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+
+
+.box-container .box h3 {
+    font-size: 20px;
+     text-align: center;
+    color: rgb(245, 246, 243);
+    
+
+}
+
+
+.box-container .box p {
+
+    padding: 0 40px;
+    font-size: 6px;
+}
+
+
+
+.container{
+    border: solid 1px rgba(255, 255 ,255, 0.2);
+    border-radius: 20px;
+}
+table{
+    color: white;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+thead{
+    background: rgba(243, 140 , 210, 0.4);
+    
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgba(238, 236, 238, 0.4);
+}
+
+
+.contacto {
+background: rgb(216, 180, 192);
+width: 30%;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+text-align: center;
+padding: 33px;
+min-height: 200px
+border-radius 22px;
+position: absolute;
+left: 34%;
+top: 35%;
+display: none;
+
+}
+
+
+.about { /*horarios*/
+    background: url(img/gente.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    height: 100vh;
+    
+}
+.box-container .box1 {
+    position: relative;
+    height: 40rem;
+    width: 39rem;
+    background:transparent;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 .5rem 5rem rgba(0, 0 , 0, .5);
+    backdrop-filter: blur(20px);
+    margin: 15px;  
+    
+}
+
+/*.price {
+    
+    /* background: url(img/2PORTADA.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    height: 30vh;
+    
+}*/
+
+.d-item{
+    height: 1000px;
+}
+.d-img{
+    height: 100%;
+    object-fit:contain;  
+    filter: brightness(0.7);
+}
+.carusel{
+    background: url(img/bosqui.jfif) no-repeat center;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    height: 130vh;
+}
+
+.contact {
+    
+    position: relative;
+    background: url(img/bosqui.jfif) no-repeat center;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    height: 190vh;
+   
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
